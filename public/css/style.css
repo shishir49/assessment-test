@@ -1,0 +1,98 @@
+body {
+    margin: auto;
+}
+
+.base-container {
+    display: grid;
+    grid-template-columns: 0.15fr 0.85fr;
+}
+
+.content-body {
+    height: 90vh;
+    padding: 20px;
+    overflow: auto !important;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Header   */
+
+.header {
+    height: 10vh;
+    background-color: #6988ac;
+}
+
+/* Sidebar  */
+
+.sidebar {
+    height: 100vh;
+    background-color: #6988ac;
+}
+
+.sidebar-header {
+    background-color: #627fa0;
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.sidebar-content {
+    height: 90vh;
+    display: block;
+    overflow: auto;
+}
+
+.sidebar-content div {
+    padding: 10px 20px;
+    background-color: #627fa0;
+    margin-top: 5px;
+}
+
+.sidebar-content div a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Dashboard  */
+
+.create-form-link {
+    display: grid;
+}
+
+.create-form-link > * {
+    justify-self: center;
+    align-self: center;
+}
+
+.create-form-link > p {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(179, 136, 30);
+}
+
+.create-form-link > button {
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    background-color: #6988ac;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#append-ele {
+    cursor: move;
+}
+
+.table {
+    width: 100% !important;
+}
