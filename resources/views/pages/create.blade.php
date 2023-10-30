@@ -157,8 +157,21 @@
             $("#append-options").append(opEle);
         })
 
+        function reset() {
+            
+        }
+
 
       $('.create-element').click(function(e){ 
+        
+
+            $('.radio-group').val('')
+            $('#input-label').val('')
+            $('#input-placeholder').val('')
+            $('.validation').val('')
+            $("#append-options").empty()
+
+
         var btn = e.target
         var btnVal = $.trim($(btn).text())
         
